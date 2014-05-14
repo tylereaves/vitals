@@ -1,7 +1,50 @@
 {
   "meteor": {},
   "dependencies": {
-    "basePackages": {},
-    "packages": {}
+    "basePackages": {
+      "iron-router": {},
+      "spin": {},
+      "server-info": {},
+      "accounts-ui-bootstrap-dropdown": {},
+      "bootstrap-cosmo": {},
+      "moment": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "server-info": {
+        "git": "https://github.com/percolatestudio/meteor-server-info.git",
+        "tag": "v0.6.1",
+        "commit": "b951de553f5e4ebec874b36b09dff4a4b7fea427"
+      },
+      "accounts-ui-bootstrap-dropdown": {
+        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
+        "tag": "v0.8.3",
+        "commit": "a7af8a52e4e74db020a69b158a8f992797b8b0b0"
+      },
+      "bootstrap-cosmo": {
+        "git": "https://github.com/and-fri/meteor-bootstrap-cosmo.git",
+        "tag": "v0.0.2",
+        "commit": "b4b5a494638ccd1a19f24f7bc45763e5ce4bf990"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      }
+    }
   }
 }

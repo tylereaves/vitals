@@ -1,0 +1,28 @@
+<template name="home">
+  <table class="table-striped">
+    <thead>
+    <tr>
+      <th width="120">Host</th>
+      <th width="80">CPU</th>
+      <th width="80">Disk</th>
+      <th width="80">Memory</th>
+      <th width="80">Swap</th>
+      <th>Last Updated</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each current_values}}
+    <tr>
+      <td>{{this.host}}</td>
+      <td>{{formatPct this.cpu}}</td>
+      <td>{{formatPct this.disk_used}}</td>
+      <td>{{formatPct this.mem_used}}</td>
+      <td>{{formatPct this.swap_used}}</td>
+      <td>{{formatDate this.last_update}}</td>
+    </tr>
+    {{/each}}
+    </tbody>
+  </table>
+
+
+</template>

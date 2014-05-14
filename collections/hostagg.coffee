@@ -1,9 +1,1 @@
-@HostAgg = new Meteor.Collection "hostagg"
-
-@HostAgg.allow
-  insert: () ->
-    false
-  update: () ->
-    false
-  remove: () ->
-    false 
+@CurrentValues = new Meteor.Collection "current_values"

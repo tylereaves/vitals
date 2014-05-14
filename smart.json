@@ -1,3 +1,10 @@
 {
-  "packages": {}
+  "packages": {
+    "iron-router": {},
+    "spin": {},
+    "server-info": {},
+    "accounts-ui-bootstrap-dropdown": {},
+    "bootstrap-cosmo": {},
+    "moment": {}
+  }
 }
